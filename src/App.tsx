@@ -1,8 +1,8 @@
 import { type FormEvent, useState } from 'react'
 import './index.css'
 
-const phone = '(719) 924-6381'
-const phoneLink = 'tel:+17199246381/+17197729066'
+const phone = "(719) 924-6381"
+const phoneLink = "tel:+17199246381"
 
 const services = [
   ['01', 'Home repairs', 'Small repairs, odd jobs, shelving, hardware, and the fixes that keep your home moving.'],
