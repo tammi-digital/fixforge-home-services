@@ -2,7 +2,7 @@ import { type FormEvent, useState } from 'react'
 import './index.css'
 
 const phone = '(719) 924-6381'
-const phoneLink = 'tel:+17199246381'
+const phoneLink = 'tel:+17199246381/+17197729066'
 
 const services = [
   ['01', 'Home repairs', 'Small repairs, odd jobs, shelving, hardware, and the fixes that keep your home moving.'],
@@ -24,7 +24,7 @@ function App() {
       `Name: ${data.get('name')}\nPhone: ${data.get('phone')}\nEmail: ${data.get('email')}\n\nProject details:\n${data.get('details')}`,
     )
     setSent(true)
-    window.location.href = `mailto:chris666213@gmail.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:fixforgehomeservices@gmail.com?subject=${subject}&body=${body}`
   }
 
   return (
