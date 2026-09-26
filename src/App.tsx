@@ -33,6 +33,10 @@ function App() {
       <header className="nav container">
         <a className="brand" href="#home" aria-label="FixForge Home Services home"><span className="brand-mark">✦</span><span>FIX<span>FORGE</span><small>HOME SERVICES</small></span></a>
         <nav><a href="#services">Services</a><a href="#about">About</a><a href="#estimate">Free estimate</a></nav>
+        <details className="mobile-nav">
+          <summary aria-label="Open navigation menu">☰</summary>
+          <div className="mobile-nav-menu"><a href="#services">Services</a><a href="#about">About</a><a href="#estimate">Free estimate</a></div>
+        </details>
         <a className="phone-link" href={phoneLink}>☎ <span>{phone}</span></a>
       </header>
 
